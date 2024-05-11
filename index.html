@@ -126,7 +126,7 @@
 
             }
 
-            /*button5.onclick = function () {
+            button5.onclick = function () {
 
                 button5.style.background = '#fdf2f0'
                 button5.style.color = '#eeb8b8'
@@ -148,9 +148,9 @@
                 button6.style.color = '#fdf2f0'
                 hanshan6.style.display = 'none'
 
-            }*/
+            }
 
-            /*button6.onclick = function () {
+            button6.onclick = function () {
 
                 button6.style.background = '#fdf2f0'
                 button6.style.color = '#eeb8b8'
@@ -172,7 +172,7 @@
                 button5.style.color = '#fdf2f0'
                 hanshan5.style.display = 'none'
 
-            }*/
+            }
 
             function updateTime() {
                 var targetDate = new Date('2017-04-15');
@@ -203,7 +203,6 @@
             setInterval(updateTime, 1000);
 
             updateTime();
-
         }
 
     </script>
@@ -223,8 +222,8 @@
         <a href="#top"><button id="button2" class="navbarButton">委託</button></a>
         <a href="#top"><button id="button3" class="navbarButton">原創</button></a>
         <a href="#top"><button id="button4" class="navbarButton">轉盤</button></a>
-        <!--<a href="#top"><button id="button5" class="navbarButton">委託</button></a>
-        <a href="#top"><button id="button6" class="navbarButton">轉盤</button></a>-->
+        <a href="#top" style="display: none;"><button id="button5" class="navbarButton">委託</button></a>
+        <a href="#top" style="display: none;"><button id="button6" class="navbarButton">轉盤</button></a>
 
     </div>
 
@@ -293,7 +292,7 @@
                         target="_blank">hanshan20030204@gmail.com</a>
                 </p>
                 <p class="introduction_B">以此紀念生命的時間軸上第一篇車文｜</p>
-                <p id="timeRemaining" class="introduction"></p>
+                <p id="timeRemaining" class="introductionE"></p>
             </div>
         </div>
 
@@ -461,6 +460,8 @@
                 <br>
                 因為還沒摸索出轉盤的程式怎麼寫
             </p>
+            <iframe src="https://hanshan-0204.github.io/TURNTABLE/" class="turn1" frameborder="0" scrolling="0"></iframe>
+            <iframe src="https://hanshan-0204.github.io/TURNTABLEforM/" class="turn2" frameborder="0" scrolling="0"></iframe>
         </div>
 
     </div>

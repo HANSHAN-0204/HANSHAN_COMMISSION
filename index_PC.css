@@ -166,6 +166,13 @@ p.introduction {
     color: #b97687;
 }
 
+p.introductionE {
+    line-height: 1.6rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.2rem;
+    color: #b97687;
+}
+
 #hanshan2 {
     width: 60rem;
     margin-top: 10vh;
@@ -214,4 +221,13 @@ img.photo {
     height: 15rem;
     object-fit: cover;
     background: #ffffff;
+}
+
+iframe.turn1 {
+    width: 24rem;
+    height: 20rem;
+}
+
+iframe.turn2 {
+    display: none;
 }
